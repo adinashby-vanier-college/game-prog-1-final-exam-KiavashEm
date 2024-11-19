@@ -1,7 +1,19 @@
 #BlueJ class context
 comment0.target=CannonBall
 comment0.text=\r\n\ \r\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ CannonBall\ wants\ to\ do.\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
-numComments=2
+comment1.params=speed
+comment1.target=CannonBall(int)
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ CannonBall\ wants\ to\ do.\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ kill()
+comment3.text=\r\n\ we\ chech\ if\ the\ cannonball\ is\ intersecting\ (\ hitiing\ )\ the\ ladybug\r\n
+comment4.params=
+comment4.target=void\ transitionToGameOverWorld()
+comment4.text=\r\n\ we\ transit\ to\ game\ over\ world\ \r\n
+comment5.params=
+comment5.target=boolean\ isGameOver()
+comment5.text=\r\n\ we\ check\ if\ the\ game\ is\ over\ by\ checking\ if\ the\ ladybug\ is\ still\ alive\r\n
+numComments=6
